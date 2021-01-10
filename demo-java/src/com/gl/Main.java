@@ -9,19 +9,22 @@ public class Main {
 
     public static void main(String[] args) {
         // Following statement would create an object myPuppy
-        Student myPuppy = new Student( "tommy" );
-        // demo list object
-        List<Student> students = new ArrayList<>();
-        students.add(myPuppy);
-        for (Student student : students){
-            System.out.println(student.name);
-        }
-        // demo map
-        Map<String, String> map = new HashMap<>();
-        map.put("1", "A");
-        map.put("2", "B");
+//        Student myPuppy = new Student( "tommy" );
+//        // demo list object
+//        List<Student> students = new ArrayList<>();
+//        students.add(myPuppy);
+//        for (Student student : students){
+//            System.out.println(student.name);
+//        }
+//        // demo map
+//        Map<String, String> map = new HashMap<>();
+//        map.put("1", "A");
+//        map.put("2", "B");
 
         //demo set
+        
+        StudentTest ts = new StudentTest("giau", 29);
+        System.out.println(ts.toString());
     }
 
 }
